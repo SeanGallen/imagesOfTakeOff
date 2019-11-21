@@ -8,6 +8,11 @@ var logger = require('morgan');
  * @type {string}
  */
 var indexRouter = require('./routes');
+
+/**
+ * Users Router
+ * @type {string}
+ */
 var usersRouter = require('./routes/users');
 
 var app = express();
